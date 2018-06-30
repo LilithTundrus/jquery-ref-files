@@ -1,0 +1,26 @@
+The purpose of jQuery is to make it much easier to use JavaScript on a website.
+
+
+jQuery is sort of legacy with the introduction of things like Angular or React
+but it's still used in a lot of places and is very important to learn.
+
+jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, a
+nd wraps them into methods that you can call with a single line of code.
+
+jQuery also simplifies a lot of the complicated things from JavaScript, 
+like AJAX calls and DOM manipulation. (Or just makes them more terse)
+
+The jQuery library contains the following features:
+
+HTML/DOM manipulation
+CSS manipulation
+HTML event methods
+Effects and animations
+AJAX
+Utilities
+
+
+jQuery is very extendable
+
+
+
