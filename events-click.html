@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 
+        The $(document).ready() method allows us to execute a function when the document is fully loaded.
+         This event is already explained in the jQuery Syntax chapter.
+
+The click() method attaches an event handler function to an HTML element.
+
+The function is executed when the user clicks on the HTML element.
+
+click and dblclick are mostly the same
+
+     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("p").click(function () {
+                $(this).hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p>If you click on me, I will disappear.</p>
+    <p>Click me away!</p>
+    <p>Click me too!</p>
+
+</body>
+
+</html>
