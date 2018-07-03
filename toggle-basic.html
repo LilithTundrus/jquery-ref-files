@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 
+        With jQuery, you can toggle between the hide() and show() methods with the toggle() method.
+
+        Toggle can be dangerous since you never know the state of the content (mostly)
+     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").toggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <button>Toggle between hiding and showing the paragraphs</button>
+
+    <p>This is a paragraph with little content.</p>
+    <p>This is another small paragraph.</p>
+
+</body>
+
+</html>
