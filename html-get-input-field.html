@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 
+        This is a basic example of getting the value of an input field
+     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                alert("Value: " + $("#test").val());
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p>Name:
+        <input type="text" id="test" value="Mickey Mouse">
+    </p>
+
+    <button>Show Value</button>
+
+</body>
+
+</html>
