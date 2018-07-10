@@ -14,9 +14,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         // The next() method returns the next sibling element of the selected element.
+        /*
+There are many useful jQuery methods for traversing sideways in the DOM tree:
+
+siblings()
+next()
+nextAll()
+nextUntil()
+prev()
+prevAll()
+prevUntil()
+
+        */
         $(document).ready(function () {
             $("h2").next().css({ "color": "red", "border": "2px solid red" });
         });
+        /*
+    The prev(), prevAll() and prevUntil() methods work just like the method above but with reverse functionality: 
+    they return previous sibling elements (traverse backwards along sibling elements in the DOM tree, 
+    instead of forward).
+        */
     </script>
 </head>
 
